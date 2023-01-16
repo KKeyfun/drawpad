@@ -1,0 +1,57 @@
+.buttonContainer {
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap:24px;
+}
+
+button {
+    padding:12px 32px;
+    width:200px;
+}
+
+html,body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:48px; 
+    
+}
+
+.cell {
+    border: 1px solid darkgray;
+    display: inline-block;
+    aspect-ratio: 1/1;
+    height: auto;
+    margin: 0 0 -1px -1px;
+
+    user-select: none;
+}
+
+.gridContainer {
+    max-width: 500px;
+    min-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    aspect-ratio: 1/1;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 4vh;
+    color: white;
+}
+
+.sliderSize {
+    color: white;
+}
